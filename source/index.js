@@ -114,14 +114,14 @@ function buildSection(product) {
     ${reqName ? `
       <div class="mt-5">
         <div class="text-xs uppercase tracking-widest text-zinc-600 dark:text-zinc-300/80">Masukkan username / nama Anda</div>
-        <input data-input="${product.key}:name" type="text" placeholder="contoh: ndraacloud" class="mt-2 w-full rounded-2xl px-4 py-3 bg-white/70 dark:bg-zinc-950/30 border border-black/10 dark:border-white/10 focus:border-indigo-400 dark:focus:border-indigo-400" />
+        <input data-input="${product.key}:name" type="text" placeholder="contoh: yopandelreyz" class="mt-2 w-full rounded-2xl px-4 py-3 bg-white/70 dark:bg-zinc-950/30 border border-black/10 dark:border-white/10 focus:border-indigo-400 dark:focus:border-indigo-400" />
       </div>
     ` : ""}
 
     ${reqHost ? `
       <div class="mt-5">
         <div class="text-xs uppercase tracking-widest text-zinc-600 dark:text-zinc-300/80">Masukkan hostname VPS</div>
-        <input data-input="${product.key}:hostname" type="text" placeholder="contoh: ndraacloud-vps01" class="mt-2 w-full rounded-2xl px-4 py-3 bg-white/70 dark:bg-zinc-950/30 border border-black/10 dark:border-white/10 focus:border-indigo-400 dark:focus:border-indigo-400" />
+        <input data-input="${product.key}:hostname" type="text" placeholder="contoh: yopandelreyz-vps01" class="mt-2 w-full rounded-2xl px-4 py-3 bg-white/70 dark:bg-zinc-950/30 border border-black/10 dark:border-white/10 focus:border-indigo-400 dark:focus:border-indigo-400" />
       </div>
     ` : ""}
   `;
