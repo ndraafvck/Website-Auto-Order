@@ -1,4 +1,4 @@
-# Website Chandra Cloud
+# Web Yopandelreyz (MVP)
 
 Website 1-page dengan UI/UX modern + pembayaran QRIS (Pakasir) via Vercel Serverless Functions.
 
