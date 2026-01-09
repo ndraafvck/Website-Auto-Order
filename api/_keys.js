@@ -22,7 +22,7 @@ export const KEYS = {
 
   // MongoDB Atlas (backend only)
   mongodb: {
-    uri: "mongodb+srv://candrajagatsaksena_db_user:<db_password>@cluster0.aghcobf.mongodb.net/?appName=Cluster0", // contoh: mongodb+srv://user:pass@cluster0.xxxx.mongodb.net/?appName=Cluster0
+    uri: "mongodb+srv://candrajagatsaksena_db_user:0MJGOQKhTeZHjF2A@cluster0.y1fklt7.mongodb.net/?appName=Cluster0", // contoh: mongodb+srv://user:pass@cluster0.xxxx.mongodb.net/?appName=Cluster0
     dbName: "shop",
     ordersCollection: "orders",
   },
