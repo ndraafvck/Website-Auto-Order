@@ -1,7 +1,7 @@
 export const KEYS = {
   pakasir: {
-    project: "ndraacloud",
-    apiKey: "Ruf6e3UgmLQXmM9W9o0U8uXrvuWHDi0H",
+    project: "chandra",
+    apiKey: "kMByTTyKnRwdSlqslqH9i3edC0sjFyYe",
     baseUrl: "https://app.pakasir.com/api",
   },
 
