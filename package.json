@@ -1,9 +1,9 @@
 {
-  "name": "web-yopandelreyz",
+  "name": "chandra-cloud",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Web HirrOfficial - MVP website pembelian otomatis (QRIS) + UI Tailwind + Vercel Functions",
+  "description": "Chandra Cloud - MVP website pembelian otomatis (QRIS) + UI Tailwind + Vercel Functions",
   "engines": {
     "node": ">=18"
   },
