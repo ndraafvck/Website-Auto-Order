@@ -6,9 +6,9 @@ export const KEYS = {
   },
 
   pterodactyl: {
-    domain: "https://",
-    apiKey: "",
-    clientKey: "",
+    domain: "https://private.ndraandree.my.id",
+    apiKey: "ptla_5OxGnvYlAUZWvdkAxxftourGFF2I7E5VqOUv0uHkbpM",
+    clientKey: "ptlc_rvdAUzrzlR6uDuEVlAS3y5vAvQYE2gi0eRD29vqxtlj",
     egg: 15,
     nestId: 5,
     locationId: 1,
