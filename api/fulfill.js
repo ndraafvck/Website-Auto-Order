@@ -90,7 +90,7 @@ async function createUserIfMissing(username, { isAdmin = false } = {}) {
 
   // Pterodactyl requires first_name/last_name. We'll split from username.
   const first = String(username).slice(0, 16) || "User";
-  const last = "Hirr";
+  const last = "Chandra";
 
   const createdUser = await pteroPost("/api/application/users", {
     email,
