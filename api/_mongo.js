@@ -13,15 +13,15 @@ function getUri() {
   return uri;
 }
 
-if (!globalThis.__chandracloudMongoClientPromise) {
+if (!globalThis.__yopandelreyzMongoClientPromise) {
   const client = new MongoClient(getUri(), {
     // Vercel functions are short-lived; keep defaults.
   });
-  globalThis.__chandracloudMongoClientPromise = client.connect();
+  globalThis.__yopandelreyzMongoClientPromise = client.connect();
 }
 
 export async function getDb() {
-  const client = await globalThis.__chandracloudMongoClientPromise;
+  const client = await globalThis.__yopandelreyzMongoClientPromise;
   const dbName = (KEYS?.mongodb?.dbName || "shop").trim();
   return client.db(dbName);
 }
