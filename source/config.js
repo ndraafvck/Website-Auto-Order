@@ -2,7 +2,7 @@
 // ⚠️ Jangan taruh API KEY di sini. Secrets harus di Vercel Environment Variables.
 
 export const BRAND = {
-  name: "Chandra Cloud",
+  name: "Web Yopandelreyz",
   tagline: "Powerful hosting • Panel Pterodactyl • VPS Singapore",
 };
 
