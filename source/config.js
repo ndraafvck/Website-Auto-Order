@@ -2,8 +2,8 @@
 // ⚠️ Jangan taruh API KEY di sini. Secrets harus di Vercel Environment Variables.
 
 export const BRAND = {
-  name: "Web Yopandelreyz",
-  tagline: "Powerful hosting • Panel Pterodactyl • VPS Singapore",
+  name: "Chandra Cloud",
+  tagline: "Powerful Hosting • Panel Pterodactyl • VPS Singapore",
 };
 
 // Mata uang (display only)
@@ -25,7 +25,7 @@ export const PRODUCTS = [
     // Username pembeli diminta di awal (global), jadi tidak perlu input nama per-produk.
     requires: { name: false, hostname: false },
     plans: [
-      { key: "panel-1gb", label: "1GB", ramGb: 1, cores: null, price: 500, badge: "Starter" },
+      { key: "panel-1gb", label: "1GB", ramGb: 1, cores: null, price: 100, badge: "Starter" },
       { key: "panel-2gb", label: "2GB", ramGb: 2, cores: null, price: 2000, badge: "Basic" },
       { key: "panel-3gb", label: "3GB", ramGb: 3, cores: null, price: 3000, badge: "Plus" },
       { key: "panel-4gb", label: "4GB", ramGb: 4, cores: null, price: 4000, badge: "Popular" },
@@ -52,7 +52,7 @@ export const PRODUCTS = [
       { key: "vps-8c-16g", label: "8 Core / 16GB", ramGb: 16, cores: 8, price: 25000, badge: "SG" }, // 16g8
     ],
     notes: [
-      "Hostname wajib diisi (contoh: yopandelreyz-vps01).",
+      "Hostname wajib diisi (contoh: ndraacloud-vps01).",
       "VPS dibuat setelah pembayaran terkonfirmasi.",
     ],
   },
