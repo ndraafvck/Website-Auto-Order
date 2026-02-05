@@ -64,7 +64,7 @@ async function pteroPatch(path, body) {
 function makeEmailFromUsername(username) {
   const u = String(username || "").trim().toLowerCase().replace(/[^a-z0-9._-]+/g, "");
   // Pterodactyl requires an email; we generate a deterministic-but-local one.
-  return `${u || "user"}@yopandelreyz.local`;
+  return `${u || "user"}@chandra.cloud`;
 }
 
 function randomPassword(len = 14) {
@@ -90,7 +90,7 @@ async function createUserIfMissing(username, { isAdmin = false } = {}) {
 
   // Pterodactyl requires first_name/last_name. We'll split from username.
   const first = String(username).slice(0, 16) || "User";
-  const last = "Hirr";
+  const last = "Ndraa";
 
   const createdUser = await pteroPost("/api/application/users", {
     email,

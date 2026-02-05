@@ -29,9 +29,9 @@ export const KEYS = {
 
   // Telegram (backend only)
   telegram: {
-    botToken: "8129299272:AAFz7ZhH4ZV-et1oNE9fOjlW0WjqwWyIS7E",      // contoh: 123456:ABC-DEF...
-    ownerChatId: "8218627647",   // contoh: 123456789
-    channelChatId: "1003165606817", // contoh: -1001234567890 atau @usernamechannel
-    websiteUrl: "https://yuvangeksa.vercel.app", // untuk ditampilkan di struk
+    botToken: "7965702038:AAFnEsc3piceqge8mpQtDzStYammg2DZ_vk",      // contoh: 123456:ABC-DEF...
+    ownerChatId: "7810572898",   // contoh: 123456789
+    channelChatId: "-1002841046280", // contoh: -1001234567890 atau @usernamechannel
+    websiteUrl: "https://ndraacloud.vercel.app", // untuk ditampilkan di struk
   },
 };

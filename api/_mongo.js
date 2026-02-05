@@ -21,7 +21,7 @@ if (!globalThis.__yopandelreyzMongoClientPromise) {
 }
 
 export async function getDb() {
-  const client = await globalThis.__yopandelreyzMongoClientPromise;
+  const client = await globalThis.__chandracloudMongoClientPromise;
   const dbName = (KEYS?.mongodb?.dbName || "shop").trim();
   return client.db(dbName);
 }
