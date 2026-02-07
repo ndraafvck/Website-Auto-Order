@@ -1,9 +1,9 @@
 {
-  "name": "web-yopandelreyz",
+  "name": "web-ndraacloud",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "Web HirrOfficial - MVP website pembelian otomatis (QRIS) + UI Tailwind + Vercel Functions",
+  "description": "Web ndraacloud - MVP website pembelian otomatis (QRIS) + UI Tailwind + Vercel Functions",
   "engines": {
     "node": ">=18"
   },
