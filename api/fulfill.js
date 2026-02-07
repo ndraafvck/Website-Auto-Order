@@ -64,7 +64,7 @@ async function pteroPatch(path, body) {
 function makeEmailFromUsername(username) {
   const u = String(username || "").trim().toLowerCase().replace(/[^a-z0-9._-]+/g, "");
   // Pterodactyl requires an email; we generate a deterministic-but-local one.
-  return `${u || "user"}@yopandelreyz.local`;
+  return `${u || "user"}@chandra.cloud`;
 }
 
 function randomPassword(len = 14) {
@@ -279,7 +279,7 @@ export default async function handler(req, res) {
           region: KEYS.digitalocean.region,
           size,
           image: KEYS.digitalocean.image,
-          tags: ["web-yopandelreyz", `order-${orderId}`],
+          tags: ["web-chandracloud", `order-${orderId}`],
         },
         {
           headers: {
