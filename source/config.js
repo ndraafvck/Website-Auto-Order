@@ -1,8 +1,8 @@
-// Web Yopandelreyz — Client Config (AMAN untuk browser)
+// Web Chandracloud — Client Config (AMAN untuk browser)
 // ⚠️ Jangan taruh API KEY di sini. Secrets harus di Vercel Environment Variables.
 
 export const BRAND = {
-  name: "Web Yopandelreyz",
+  name: "Web Chandracloud",
   tagline: "Powerful hosting • Panel Pterodactyl • VPS Singapore",
 };
 
@@ -52,7 +52,7 @@ export const PRODUCTS = [
       { key: "vps-8c-16g", label: "8 Core / 16GB", ramGb: 16, cores: 8, price: 25000, badge: "SG" }, // 16g8
     ],
     notes: [
-      "Hostname wajib diisi (contoh: yopandelreyz-vps01).",
+      "Hostname wajib diisi (contoh: ndraacloud-vps01).",
       "VPS dibuat setelah pembayaran terkonfirmasi.",
     ],
   },
